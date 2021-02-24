@@ -3,23 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Inconsolata&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>StopWatch</title>
 </head>
 <body>
-    <div class="watch">
-        <div class="display" id="display">
-            <h1 class="hours" id="hours">00:</h1>
-            <h1 class="minutes" id="minutes">00:</h1>
-            <h1 class="seconds" id="seconds">00:</h1>
-            <h1 class="milliseconds" id="milliseconds">00</h1>
+
+    <div class="stopwatchcontainer">
+        <div class="watch">
+            <div class="display" id="display">
+                <h1 class="hours" id="hours">00:</h1>
+                <h1 class="minutes" id="minutes">00:</h1>
+                <h1 class="seconds" id="seconds">00:</h1>
+                <h1 class="milliseconds" id="milliseconds">00</h1>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="startStop" id="startStop">Start</button>
+            <button class="lapRestart" id="lapRestart">Lap</button>
+        </div>
+                <div class="laps" id="laps">
+            <h3 class="lapH" id="lapH">00:</h3>
+            <h3 class="lapM" id="lapM">00:</h3>
+            <h3 class="lapS" id="lapS">00.</h3>
+            <h3 class="lapHMI" id="lapMI">00</h3>
         </div>
     </div>
-    <div class="buttons">
-        <button class="startStop" id="startStop">Start/Stop</button>
-        <button class="lap" id="lap">Lap</button>
-        <button class="reset" id="reset">Reset</button>
-    </div>
+
+    <!-- <div class="laps" id="laps">
+        <h3 class="lap1" id="lap1">00:00:00.00</h3>
+    </div> -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.js"
     integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
