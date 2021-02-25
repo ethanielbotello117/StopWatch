@@ -77,7 +77,8 @@ $(function () {
 
             lapMI.innerHTML = '00';
             lapS.innerHTML = '00.';
-
+            lapM.innerHTML = '00:';
+            lapH.innerHTML = '00:';
 
             hour = 0;
             minute = 0;
