@@ -75,10 +75,9 @@ $(function () {
             seconds.innerHTML = '00.';
             milliseconds.innerHTML = '00';
 
-            lapMI1.innerHTML = '00';
-            lapS1.innerHTML = '00.';
-            lapM1.innerHTML = '00:';
-            lapH1.innerHTML = '00:';
+            lapMI.innerHTML = '00';
+            lapS.innerHTML = '00.';
+
 
             hour = 0;
             minute = 0;
